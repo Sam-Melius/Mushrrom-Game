@@ -16,7 +16,7 @@ export function renderFriend(friend) {
     nameEl.classList.add('name');
     emojiEl.classList.add('emoji');
 
-    nameEl.tectContent = friend.name;
+    nameEl.textContent = friend.name;
 
     // for each friend, set the emojiEl's text content to a different emoji depending on their satisfaction level
     if (friend.satisfaction === 1) {
